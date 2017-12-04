@@ -20,9 +20,9 @@ function deepestChild() {
   let next = [];
 
   while (current) {
-    /*if (criteriaFn(current)) {
+    if (document.querySelector('div') === null) {
       return current;
-    }*/
+    }
 
    	if (Array.isArray(current)) {
       for (let i = 0; i < current.length; i++) {
