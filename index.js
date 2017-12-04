@@ -33,5 +33,5 @@ function deepestChild() {
     current = next.shift();
   }
 
-  return current.innerHTML;
+  return current;
 }
