@@ -25,7 +25,7 @@ function deepestChild() {
     }
 
    	if (Array.isArray(current)) {
-      for (let i = 0; i < current.length; i++) {
+      for (let i in current) {
         next.push(current[i]);
       }
     }
